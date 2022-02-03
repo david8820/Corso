@@ -36,7 +36,7 @@ function navBar(){
 // Function for Footer social media display
 function footerMedia(){
     var social = [{
-        href: "./rss.cml",
+        href: "./rss.xml",
         class: "fa fa-rss"
     }, 
     {
