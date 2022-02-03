@@ -40,7 +40,7 @@ function footerMedia(){
         class: "fa fa-rss"
     }, 
     {
-        href: "/sitemap.xml",
+        href: "sitemap.xml",
         class: "fa fa-sitemap"
     },
     {
