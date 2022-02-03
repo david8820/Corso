@@ -36,11 +36,11 @@ function navBar(){
 // Function for Footer social media display
 function footerMedia(){
     var social = [{
-        href: "/rss.cml",
+        href: "./rss.cml",
         class: "fa fa-rss"
     }, 
     {
-        href: "/sitemap.xml",
+        href: "./sitemap.xml",
         class: "fa fa-sitemap"
     },
     {
@@ -360,11 +360,14 @@ testimonials();
     
 
     //Back To Top Button 
-    $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
+    $('body').prepend('<a class="back-to-top page-scroll">Back to Top</a>');
     var amountScrolled = 700;
     $(window).scroll(function() {
         if ($(window).scrollTop() > amountScrolled) {
             $('a.back-to-top').fadeIn('500');
+	    $('a.back-to-top').on('click', function(){
+                window.scrollTo(0,0)
+            });
         } else {
             $('a.back-to-top').fadeOut('500');
         }
