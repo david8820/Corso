@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Corso</title>
+        <link>https://david8820.github.io/Corso/index.html</link>
+        <description>Special Offer</description>
+            <item>
+                <title>Valentines day</title>
+                <link>
+					https://david8820.github.io/Corso/index.html
+				</link>
+                <description>First 20 to subscribe will get 30% off on our SEO course!</description>
+            </item>           
+    </channel>
+</rss>
